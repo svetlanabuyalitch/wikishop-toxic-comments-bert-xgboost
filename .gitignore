@@ -1,0 +1,32 @@
+# Данные
+*.csv
+*.npy
+*.db
+*.sqlite
+*.pkl
+*.pickle
+*.h5
+*.keras
+faces_dataset/
+datasets/
+data/
+
+# Модели и артефакты
+catboost_info/
+*.joblib
+models/
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
